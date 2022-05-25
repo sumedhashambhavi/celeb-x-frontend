@@ -26,7 +26,7 @@ class Workspace extends Component {
         if (this.state.selectedFile) {
             return (
                 <div>
-                    <img src={this.state.selectedFile} alt="description of image"/>
+                    <img src={this.state.selectedFile} alt="description of"/>
                 </div>
             );
         } else {
